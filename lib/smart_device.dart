@@ -23,14 +23,20 @@ class SmartDevice extends StatelessWidget {
       padding: const EdgeInsets.all(5),
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(24),
+          borderRadius: BorderRadius.circular(15),
           color: Colors.grey[300],
         ),
         child: Column(
           children: [
+            SizedBox(
+              height: 50,
+            ),
             Image.asset(
               iconPath,
               height: 90,
+            ),
+            SizedBox(
+              height: 50,
             ),
             Row(
               crossAxisAlignment: CrossAxisAlignment.end,
