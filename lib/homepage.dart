@@ -31,24 +31,6 @@ class _MyhomePageState extends State<MyhomePage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            //custom appbar
-            // Padding(
-            //   padding: EdgeInsets.symmetric(
-            //       vertical: verticalPadding, horizontal: horizontalPadding),
-            //   child: Row(
-            //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            //     children: [
-            //       Image.asset(
-            //         'assets/icons/menu.png',
-            //         height: 50,
-            //       ),
-            //       Icon(
-            //         Icons.person,
-            //         size: 20,
-            //       ),
-            //     ],
-            //   ),
-            // ),
             SizedBox(
               height: 20,
             ),
@@ -59,7 +41,6 @@ class _MyhomePageState extends State<MyhomePage> {
                   Text(
                     "Welcome Home Aakash",
                     style: TextStyle(fontSize: 20),
-                    // textAlign: TextAlign.center,
                   ),
                   Text(
                     "Aakash Rajbanshi",
